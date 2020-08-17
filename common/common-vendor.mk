@@ -16,7 +16,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/miuicamera/common
 
 PRODUCT_COPY_FILES += \
-    vendor/miuicamera/common/proprietary/etc/device_features/ginkgo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/ginkgo.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/ginkgo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/gram.xml \
+	vendor/miuicamera/common/proprietary/etc/device_features/ginkgo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/curtana.xml \
+	vendor/miuicamera/common/proprietary/etc/device_features/ginkgo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/joyeuse.xml \
+	vendor/miuicamera/common/proprietary/etc/device_features/ginkgo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/excalibur.xml \
+	vendor/miuicamera/common/proprietary/etc/device_features/ginkgo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/ginkgo.xml \
     vendor/miuicamera/common/proprietary/etc/device_features/willow.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/willow.xml \
     vendor/miuicamera/common/proprietary/etc/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml \
     vendor/miuicamera/common/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
